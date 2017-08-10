@@ -1,0 +1,26 @@
+{
+    "name": "adminstrator/0628",
+    "require": {
+        "gregwar/captcha": "dev-master",
+        "filp/whoops": "^2.0@dev",
+        "codeguy/upload": "dev-master"
+    },
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php",
+            "system/config/database.php",
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang",
+            "app\\":"app",
+            "system\\":"system"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
